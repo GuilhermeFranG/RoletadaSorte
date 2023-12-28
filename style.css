@@ -9,24 +9,23 @@ body {
     text-align: center;
 }
 
+a {text-decoration: none;}
+
 h1 {
     color: red;
     text-shadow: 2px 2px black;
     font-size: 36px;
 }
 
-p {
-    color: #666;
-    font-size: 18px;
-}
+p {color: #666; font-size: 18px;}
 
 h1, p {
     margin: 15px;
 }
 
 #chart {
-    width: 600px;
-    height: 600px;
+    width: 560px;
+    height: 560px;
     margin: 50px auto;
 }
 
@@ -47,4 +46,18 @@ h1, p {
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
+}
+
+
+
+footer {
+    margin-top: 10vh;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+    font-weight: bolder;
+    background-color: #0169C7;
+    border-top: 2px solid rgba(0, 0, 0, 0.829);
+    text-shadow: 1px 0px #0169C7;;
 }
